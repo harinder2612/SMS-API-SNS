@@ -7,3 +7,4 @@ Open browser and visit something like,
 
 The mobile number should be E.164 format but without the + character.
 
+Moreover, create a .env file and add 3 fields which includes AWS access key, secret key and region.
