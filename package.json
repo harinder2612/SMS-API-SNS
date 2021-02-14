@@ -1,0 +1,19 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Code for SMS API using AWS SNS",
+  "main": "app.js",
+  "scripts": {
+    "test": "npn run:test"
+  },
+  "keywords": [
+    "SNS"
+  ],
+  "author": "Harinder",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.843.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
