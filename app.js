@@ -3,6 +3,7 @@ const app = express();
 require('dotenv').config();
 
 var AWS = require('aws-sdk');
+var otpGenerator = require('otp-generator');
 
 app.get('/', (req, res) => {
 
@@ -32,4 +33,4 @@ app.get('/', (req, res) => {
 
 });
 
-app.listen(3000, () => console.log('SMS Services Listening on PORT 3000'))
+app.listen(3000, () => console.log('OTP: '+ otpGenerator.generate(6, { upperCase: false, specialChars: false, alphabets: false })));
